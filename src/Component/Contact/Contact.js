@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, {css} from 'styled-components'
+import styled from 'styled-components'
 import { Card, CardContent, Grid, Box, TextField, withTheme } from '@material-ui/core'
 import NavBar from 'Component/NavBar'
 import ContactList from 'Component/ContactList'
@@ -77,20 +77,20 @@ const Contact = ({ contact, handleChange, handleAdd, errors, theme }) => {
 export default withTheme(Contact)
 
 const Wrapper = styled.div`
-    width:70%;
+    width:60%;
     height:90%;
     background-color: rgba(0, 0, 0, .1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1rem;
+    gap:2rem;
     padding-bottom: 1rem;
     ${props=> props.theme.breakpoints.down('md')}{
         width:100%;
     };
 `
 const StyledCard = styled(Card)`
-    width:90%;
+    width:95%;
     height:90%;
 `
 
