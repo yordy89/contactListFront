@@ -38,6 +38,7 @@ const NavBar = ({ chips, onDelete, onChange, onKeyPress, onClick, value }) => {
 export default NavBar
 
 const StyledAppBar = styled(AppBar)`
+<<<<<<< HEAD
     display:flex;
     align-items:center;
     justify-content: center;
@@ -75,4 +76,9 @@ const StyledInput = styled(InputBase)`
 const StyledButton = styled(Button)`
     background-color: gray;
     color: white;
+=======
+    padding: 1rem;
+    display:flex;
+    align-items:center;
+>>>>>>> dfb660013f18fa38a2073906f8acfd9e00b47596
 `
